@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 45px;
+  border-radius: 10px;
+  width: 35%;
+}
+.heading {
+  color: #1e293b;
+}
+.capitals {
+  width: 150px;
+}
+.countryContainer {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-left: 15px;
+}
+.capitals {
+  color: #000000;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.description {
+  color: #1e293b;
+  font-weight: 500;
+}
+.country {
+  align-self: flex-start;
+  color: #1e293b;
+  margin-left: 60px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+}
